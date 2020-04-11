@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Uzumaki Naruto"
+    },
+    {
+      "id": 1,
+      "name": "Uchiha Sasuke"
+    },
+    {
+      "id": 2,
+      "name": "Haruno Sakura"
+    },
+    {
+      "id": 3,
+      "name": "Hatake Kakashi"
+    }
+  ]
+}
