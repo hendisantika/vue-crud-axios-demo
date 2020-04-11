@@ -78,6 +78,11 @@
                     this.form.name = ''
                 })
             },
+            edit(user) {
+                this.updateSubmit = true
+                this.form.id = user.id
+                this.form.name = user.name
+            },
         }
     }
 </script>
