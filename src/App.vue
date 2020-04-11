@@ -94,6 +94,13 @@
 
                 })
             },
+            del(user) {
+                axios.delete('http://localhost:3000/users/' + user.id).then(res => {
+                    this.load()
+                    let index = this.users.indexOf(form.name)
+                    this.users.splice(index, 1)
+                })
+            }
         }
     }
 </script>
