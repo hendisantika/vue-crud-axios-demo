@@ -1,5 +1,7 @@
 # democrud
 
+Membuat CRUD dengan VueJS & Axios
+
 ## Project setup
 ```
 npm install
@@ -20,5 +22,17 @@ npm run build
 npm run lint
 ```
 
+### Run server
+```shell script
+ json-server db.json
+```
+
+### Screen shot
+
+Index Page
+
+![Index Page](img/index.png "Index Page")
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
