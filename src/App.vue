@@ -83,6 +83,17 @@
                 this.form.id = user.id
                 this.form.name = user.name
             },
+            update(form) {
+                return axios.put('http://localhost:3000/users/' + form.id, {name: this.form.name}).then(res => {
+                    this.load()
+                    this.form.id = ''
+                    this.form.name = ''
+                    this.updateSubmit = false
+                }).catch((err) => {
+                    console.log(err);
+
+                })
+            },
         }
     }
 </script>
